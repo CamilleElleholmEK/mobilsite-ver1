@@ -16,11 +16,22 @@ header {
   background-color: #d3f5fc;
   height: 110px;
 }
-header a {
+header a:link {
   color: #041626;
   font-family: "Roboto Slab", serif;
 }
-
+header a:visited {
+  color: #041626;
+  font-family: "Roboto Slab", serif;
+}
+header a:hover {
+  color: #0a96a6;
+  font-family: "Roboto Slab", serif;
+}
+header a:active {
+  color: #0a96a6;
+  font-family: "Roboto Slab", serif;
+}
 main {
   background-color: #f5ffff;
   padding: 2em;
@@ -37,6 +48,7 @@ main h1 {
   font-family: "Roboto";
   font-weight: 600;
   padding-bottom: 0.3em;
+  font-style: italic;
 }
 main p {
   font-family: "Roboto Slab", serif;
@@ -55,7 +67,7 @@ main a {
 
 main img {
   width: 308px;
-  border: solid #8c2e7d 4px;
+  border: solid #041626 4px;
   border-radius: 5px;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
@@ -63,21 +75,24 @@ main img {
 
 #cutout {
   width: 308px;
-  border: solid #8c2e7d 4px;
+  border: solid #041626 4px;
   border-radius: 5px;
   margin-top: 1.5em;
   margin-bottom: 1.5em;
+  padding: 0.2em;
 }
 main h2 {
   font-family: "Roboto";
   font-weight: 500;
   color: #041626;
   padding-bottom: 0.2em;
+  font-style: italic;
 }
 main h3 {
   font-family: "Roboto";
   font-weight: 500;
   color: #041626;
+  font-style: italic;
 }
 
 dl {
@@ -88,10 +103,12 @@ dl {
   margin-top: 0.3em;
   width: 308px;
 }
-dl dt {
+dt {
   background-color: #d3f5fc;
-  padding: 1%;
+  padding: 1.5%;
+  font-weight: 500;
 }
-dl dd {
-  padding: 1%;
+dd {
+  padding: 1.5%;
+  font-style: italic;
 }
