@@ -14,14 +14,11 @@ img {
 
 header {
   background-color: #d3f5fc;
+  height: 110px;
 }
 header a {
   color: #041626;
   font-family: "Roboto Slab", serif;
-}
-ul {
-  list-style-type: disc;
-  padding-left: 30px;
 }
 
 main {
