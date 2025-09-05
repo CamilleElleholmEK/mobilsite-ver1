@@ -14,11 +14,9 @@ img {
 
 header {
   background-color: #d3f5fc;
-  height: 90px;
 }
 header a {
   color: #041626;
-  padding: 3%;
   font-family: "Roboto Slab", serif;
 }
 ul {
