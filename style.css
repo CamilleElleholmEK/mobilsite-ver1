@@ -1,0 +1,116 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* --------------------- GENERAL -----------------*/
+
+header {
+  background-color: #d3f5fc;
+  height: 90px;
+}
+header a {
+  color: #041626;
+  padding: 3%;
+  font-family: "Roboto Slab", serif;
+}
+ul {
+  list-style-type: disc;
+  padding-left: 30px;
+}
+
+main {
+  background-color: #f5ffff;
+}
+footer {
+  background-color: #d3f5fc;
+  color: #041626;
+  font-family: "Roboto Slab";
+  padding: 3%;
+}
+
+/* --------------------- FORSIDE --------------------- */
+main h1 {
+  margin-left: 3%;
+  margin-bottom: 3%;
+  font-family: "Roboto";
+  font-weight: 600;
+  padding-top: 3%;
+}
+main p {
+  margin-left: 3%;
+  margin-top: 3%;
+  padding-bottom: 7%;
+  margin-right: 3%;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #041626;
+  font-size: 16px;
+}
+main a {
+  margin-left: 3%;
+
+  color: #041626;
+  font-family: "Roboto Slab", serif;
+}
+
+main img {
+  width: 80%;
+  margin-top: 7%;
+  margin-left: 3%;
+  margin-bottom: 7%;
+  border: solid #8c2e7d 4px;
+  border-radius: 5px;
+}
+
+#cutout {
+  width: 80%;
+  margin-top: 7%;
+  margin-left: 3%;
+  margin-bottom: 7%;
+  border: solid #8c2e7d 4px;
+  padding: 2%;
+  border-radius: 5px;
+}
+main h2 {
+  margin-left: 3%;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #041626;
+  margin-bottom: 3%;
+}
+main h3 {
+  margin-left: 3%;
+  font-family: "Roboto";
+  font-weight: 500;
+  color: #041626;
+}
+
+dl {
+  margin-left: 3%;
+  margin-right: 3%;
+  font-family: "Roboto Slab", serif;
+  border: solid #041626 2px;
+  border-radius: 5px;
+  padding: 2%;
+  color: #041626;
+}
+dl dt {
+  background-color: #d3f5fc;
+  padding: 1%;
+}
+dl dd {
+  padding: 1%;
+}
+
+p a {
+  margin-left: 0%;
+}
